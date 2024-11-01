@@ -1,0 +1,257 @@
+/***************/
+/* for Widgets */
+/***************/
+
+/* Overall */
+.stillbe-ig-embed{
+	position            : relative;
+	display             : block;
+	margin              : 0 4px;
+	border              : 1px solid rgba(192,192,192,0.45);
+	border-color        : var(--main-border-color);
+	overflow            : hidden;
+}
+.stillbe-ig-embed *{
+	text-align          : left;
+	transition          : all 0s, color 0.5s;
+}
+.stillbe-ig-embed a{
+	text-decoration     : none;
+	outline             : none;
+}
+.stillbe-ig-embed a::after,
+.stillbe-ig-embed a::before{
+	content             : none;
+}
+.stillbe-ig-embed img{
+	outline             : none;
+	border              : none;
+}
+
+/* Header */
+.stillbe-ig-embed .ig-basic-info{
+	position            : relative;
+	z-index             : 2;
+	display             : block;
+	margin              : 0;
+	padding             : 5px;
+	background          : #F7FFF8;
+	background          : linear-gradient(135deg, #EBFF3709, #46FF4B09, #0AFFFF09);
+	border-bottom       : 1px solid rgba(192,192,192,0.45);
+	border-color        : var(--main-border-color);
+}
+.stillbe-ig-embed .ig-brad-gryph{
+	margin              : 0;
+	padding             : 0;
+}
+.stillbe-ig-embed .ig-brad-gryph > a{
+	position            : relative;
+	display             : block;
+	margin-left         : 80px;
+	height              : 44px;
+	font-size           : 0;
+	overflow            : visible;
+}
+.stillbe-ig-embed .ig-brad-gryph .ig-brand-icon{
+	position            : absolute;
+	top                 : 0;
+	left                : -80px;
+	display             : block;
+	width               : 75px;
+	height              : 75px;
+	/* Instagramのアイコンは上下左右にロゴの半分以上の空白が必要 */
+	/* Detail => https://en.instagram-brand.com/assets/icons */
+}
+.stillbe-ig-embed .ig-brad-gryph .ig-brand-logo{
+	width               : auto;
+	height              : 44px;
+}
+.stillbe-ig-embed .ig-user-info{
+	position            : relative;
+	margin              : 0;
+	margin-left         : 75px;
+	padding             : 5px 0;
+	font-size           : 0;
+	line-height         : 25px;
+}
+.stillbe-ig-embed .ig-user-info figure{
+	position            : absolute;
+	top                 : 5px;
+	bottom              : 5px;
+	left                : 0;
+}
+.stillbe-ig-embed .ig-user-info figure > img{
+	position            : relative;
+	top                 : 50%;
+	width               : 25px;
+	height              : 25px;
+	border-radius       : 50%;
+	transform           : translateY(-50%);
+}
+.stillbe-ig-embed .ig-user-info a{
+	display             : block;
+	margin-left         : 30px;
+	font-weight         : 400;
+	line-height         : 0;
+	color               : inherit;
+}
+.stillbe-ig-embed .ig-user-info a > span{
+	display             : inline-block;
+	max-width           : 100%;
+	font-size           : 14px;
+	line-height         : 26px;
+	color               : inherit;
+	white-space         : nowrap;
+	overflow            : hidden;
+	text-overflow       : ellipsis;
+}
+.stillbe-ig-embed .ig-user-info a > .ig-user-id{
+	position            : relative;
+	padding             : 0 0.6em;
+}
+.stillbe-ig-embed .ig-user-info a > .ig-user-id::before{
+	content             : '(';
+	position            : absolute;
+	left                : 0.1em;
+}
+.stillbe-ig-embed .ig-user-info a > .ig-user-id::after{
+	content             : ')';
+	position            : absolute;
+	right               : 0.1em;
+}
+.stillbe-ig-embed .ig-user-info .ig-user-media-count,
+.stillbe-ig-embed .ig-user-info .ig-user-followers{
+	display             : none;
+}
+/* 表示形式の切替ボタン */
+.stillbe-ig-embed .ig-select-show-type{
+	position            : relative;
+	z-index             : 1;
+	display             : block;
+	font-size           : 0;
+	line-height         : 0;
+	text-align          : center;
+	background          : #E9E9E9;
+	background          : linear-gradient(to top, #E9E9E9, #F9F9F9);
+	background          : linear-gradient(to top, var(--main-gray-color), var(--main-bg-color));
+	border-bottom       : 1px solid rgba(192,192,192,0.45);
+	border-color        : var(--main-border-color);
+	box-shadow          : 0px 2px 6px rgba(0,0,0,0.2);
+	box-shadow          : 0px 2px 6px var(--main-shadow-color);
+}
+.stillbe-ig-embed .ig-select-show-type > label{
+	position            : relative;
+	display             : inline-block;
+	width               : 49%;
+	height              : 44px;
+	font-size           : 0;
+	font-family         : 'Font Awesome 5 Free';
+	font-weight         : 900;
+	color               : #0D0D4A;
+	color               : var(--main-dark-color);
+	text-align          : center;
+	box-sizing          : border-box;
+	cursor              : pointer;
+}
+.stillbe-ig-embed .ig-select-show-type > label.ig-select-list-button::after,
+.stillbe-ig-embed .ig-select-show-type > label.ig-select-grid-button::after{
+	font-size           : 26px;
+	line-height         : 44px;
+	opacity             : 0.6;
+}
+.stillbe-ig-embed .ig-select-show-type > label.ig-select-list-button::after{
+	content             : '\f0c9';
+}
+.stillbe-ig-embed .ig-select-show-type > label.ig-select-grid-button::after{
+	content             : '\f00a';
+}
+.stillbe-ig-embed .ig-select-show-type > label + label{
+	margin-left         : 1%;
+}
+.stillbe-ig-embed .ig-select-show-type > label + label::before{
+	content             : '';
+	position            : absolute;
+	display             : block;
+	width               : 1px;
+	left                : -1px;
+	top                 : 0;
+	bottom              : 0;
+	background          : rgba(192,192,192,0.45);
+	background          : var(--main-border-color);
+}
+/* メイン表示部のスクロール設定 */
+.stillbe-ig-embed main{
+	display             : block;
+	max-height          : 410px;
+	overflow-x          : hidden;
+	overflow-y          : auto;
+}
+/* 本家インスタ風に3*3の格子状にサムネイルを並べる */
+.stillbe-ig-embed input:checked + main{
+	padding-top         : 2px;
+	font-size           : 0;
+	line-height         : 0;
+}
+.stillbe-ig-embed input:checked + main > .ig-posts{
+	position            : relative;
+	display             : inline-block;
+	margin              : 0;
+	padding             : 0;
+	padding-top         : 33.3%;
+	width               : 33.3%;
+}
+.stillbe-ig-embed input:checked + main > .ig-posts > a{
+	position            : absolute;
+	top                 : 1px;
+	bottom              : 1px;
+	left                : 1px;
+	right               : 1px;
+	display             : block;
+}
+.stillbe-ig-embed input:checked + main .ig-post-date,
+.stillbe-ig-embed input:checked + main .ig-caption{
+	display             : none;
+}
+/* サムネイルとコメントを並べる */
+.stillbe-ig-embed input:checked + input + main > .ig-posts{
+	display             : block;
+	margin              : 5px;
+	padding             : 5px;
+	border-radius       : 5px;
+	border              : 1px solid rgba(192,192,192,0.45);
+	border-color        : var(--main-border-color);
+}
+.stillbe-ig-embed input:checked + input + main > .ig-posts > a{
+	display             : block;
+	padding-top         : 65%;
+}
+.stillbe-ig-embed input:checked + input + main .ig-post-date{
+	display             : block;
+	margin              : 5px;
+	font-size           : 12px;
+	text-align          : right;
+	opacity             : 0.8;
+}
+.stillbe-ig-embed input:checked + input + main .ig-post-date > span::before{
+	content             : '\f017';
+	font-family         : 'Font Awesome 5 Free';
+	font-weight         : 900;
+	padding-right       : 0.25em;
+}
+.stillbe-ig-embed input:checked + input + main .ig-caption{
+	display             : block;
+	margin              : 0 5px;
+	padding             : 0;
+	font-size           : 13px;
+	line-height         : 1.4em;
+	text-align          : justify;
+	text-align-last     : left;
+	word-break          : break-all;
+}
+.stillbe-ig-embed input:checked + input + main > .ig-caption a{
+	color               : #3402A7;
+	cursor              : pointer;
+}
+
+
+

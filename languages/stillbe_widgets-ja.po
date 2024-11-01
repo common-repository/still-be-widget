@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja_JP\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+
+msgid "Add some original widgets, example, Instagram Timeline (Available after April 2020 too)."
+msgstr "オリジナルウィジェットを追加します。例えば2020年4月以降も使用可能な Instagram のタイムライン表示ができます。"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページを表示する権限がありません。"
+
+msgid "You must set an option table setting key and instantiate."
+msgstr "オプションテーブルのキーを設定してインスタンス化する必要があります。"
+
+msgid "Select the item you want to set."
+msgstr "設定する項目を選択して下さい。"
+
+msgid "Settings saved."
+msgstr "設定が保存されました。"
+
+msgid "Save API settings to get information from Instagram."
+msgstr "Instagram の情報を取得する API 情報を保存します。"
+
+msgid "Select the user using &quot;Distinguished Name&quot; in the each widget setting."
+msgstr "ウィジェットの設定画面では、ユーザを &quot;識別名&quot; を使って選択します。"
+
+msgid "Please refer to the following article for how to get a business account ID and an indefinite access token."
+msgstr "ビジネスアカウントの ID や無期限のアクセストークンが分からない場合は、以下のページを参考にして下さい。"
+
+msgid "It is a paid article of 560 yen"
+msgstr "560円の有料記事です"
+
+msgid "Save"
+msgstr "保存する"
+
+msgid "Common Setting"
+msgstr "共通設定"
+
+msgid "Cache Lifetime"
+msgstr "キャッシュ有効期限"
+
+msgid "Set the min time interval for accessing the API [sec] (min: 30sec)"
+msgstr "API へリクエストする最短間隔を設定 [秒] (最小: 30秒)"
+
+msgid "User %d"
+msgstr "ユーザ %d"
+
+msgid "Distinguished Name"
+msgstr "識別名"
+
+msgid "An identification name used in widgets, for example, using Instagram User ID is better"
+msgstr "他の識別名と異なるウィジェットの設定画面でのみ使用する名前です。Instagram のユーザ ID が適しています"
+
+msgid "Instagram Buisiness ID"
+msgstr "Instagram のビジネス ID"
+
+msgid "Instagram Access Token"
+msgstr "Instagram アクセストークン"
+
+msgid "Access Token (Expires: Never)"
+msgstr "無期限のアクセストークン"
+
+msgid "Still BE Instagram Timeline Widget"
+msgstr "Still BE Instagram タイムライン ウィジェット"
+
+msgid "Show the Instagram Timeline Box"
+msgstr "Instagram のタイムラインを表示するボックスを追加します"
+
+msgid "Set the ID & token for API"
+msgstr "API で使用する ID とトークンを設定して下さい"
+
+msgid "No post"
+msgstr "投稿がありません"
+
+msgid "Instagram Timeline"
+msgstr "Instagram タイムライン"
+
+msgid "Title"
+msgstr "タイトル"
+
+msgid "Posts show style"
+msgstr "表示形式"
+
+msgid "Arrange on the grid"
+msgstr "グリッド状に並べる"
+
+msgid "Arrange on the list"
+msgstr "リスト状に並べる"
+
+msgid "Registered the Distinguished Name"
+msgstr "登録した識別名"
+
+msgid "Select"
+msgstr "選択する"
+
+msgid "Please move to setting page for register some Distinguished Names."
+msgstr "識別名を登録するには、設定ページに移動して下さい。"
+
+msgid "Setting Page"
+msgstr "設定ページ"
+
+msgid "If you want to set an other Instagram User with Buisiness ID & Access Token, fill the bellow inputs."
+msgstr "登録していないユーザ情報を使って表示する場合は、以下にビジネス ID とアクセストークンを入力して下さい。"
+
+msgid "But cache updating on background is disable."
+msgstr "但し、バックグラウンドでのキャッシュ更新はできませんので、アクセス過多による制限にご注意下さい。"
